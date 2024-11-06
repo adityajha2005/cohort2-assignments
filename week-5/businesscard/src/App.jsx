@@ -9,7 +9,13 @@ function App() {
 
   return (
     <div>
-      <CreateCard />
+      <CreateCard 
+        name="Aditya"
+        description="Full Stack Developer"
+        interests={['React', 'Node.js', 'TypeScript']}
+        linkedin="https://www.linkedin.com"
+        twitter="https://www.twitter.com"
+      />
     </div>
   )
 }
